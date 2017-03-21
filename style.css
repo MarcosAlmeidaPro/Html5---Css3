@@ -1,9 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: helvetica neue, Arial;
     color: #3e3e3e;
     
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1{
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+}
 
 h1, h2 {
     color: #890505
@@ -11,6 +34,7 @@ h1, h2 {
 
 p {
     text-align: justify;
+    line-height: 25px;
 }
 
 
@@ -22,30 +46,71 @@ p {
 }
 
 .container {
-    margin: auto;
-    width: 80%;
+    margin: 20px auto 0 auto;
+    width: 1140px;
 }
 
 .firstpanel {
    
     width: 75%;
     float: left;
-    background: #c3c0c0;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .sidepanel {
+    width: 25%;
     float: left;
+    margin-top: 20px;
+    
+}
+
+.user {
+    float: left;
+}
+
+.assinatura {
+    width: auto;
+    float: left;
+}
+
+.nome {
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.cargo {
+    margin-left: 20px;
+    font-size: 15px;
+    
 }
 
 
 .bottompanel {
-    float: right;
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: auto;
+    margin-bottom: 150px;
+    border-top: 1px solid #808080;
+   
 
+}
+
+.otherpost {
+    margin-bottom: 40px;
+    color: #890505;
+}
+
+.maintext {
+    margin-bottom: 20px;
+}
+
+.date {
+    position: absolute;
+    top: 20px;
+    right: 40px;
 }
