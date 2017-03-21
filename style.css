@@ -1,0 +1,51 @@
+body {
+    font-family: helvetica neue, Arial;
+    color: #3e3e3e;
+    
+}
+
+
+h1, h2 {
+    color: #890505
+}
+
+p {
+    text-align: justify;
+}
+
+
+.user {
+    
+    border-radius: 50%;
+    
+    
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.firstpanel {
+   
+    width: 75%;
+    float: left;
+    background: #c3c0c0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.sidepanel {
+    float: left;
+}
+
+
+.bottompanel {
+    float: right;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+
+}
